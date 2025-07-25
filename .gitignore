@@ -1,0 +1,10 @@
+# Python virtual environment
+.venv/
+__pycache__/
+
+# Dataset folder (not needed for the running app)
+Indian Origin Flowers*/
+
+# Training scripts
+train_model.py
+organize_dataset.py
