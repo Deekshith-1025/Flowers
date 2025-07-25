@@ -6,7 +6,7 @@ import json
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load model and labels
-model = tf.keras.models.load_model('flower_model.h5')
+model = tf.keras.models.load_model('flower_model.h5', compile=False)
 with open('class_names.json') as f:
     class_indices = json.load(f)
 class_labels = list(class_indices.keys())
